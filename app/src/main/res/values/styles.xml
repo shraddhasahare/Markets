@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="textLatoBold_Black14ssp">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textLatoSemiBold_White10ssp">
+        <item name="fontFamily">@font/lato_semibold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textLatoRegular_Black14ssp">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textLatoRegular_Black10ssp">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textLatoSemiBold_Blue10ssp">
+        <item name="fontFamily">@font/lato_semibold</item>
+        <item name="android:textColor">@color/appDesign_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PulseIndicator">
+        <item name="minWidth">@dimen/dimen_100dp</item>
+        <item name="maxWidth">@dimen/dimen_100dp</item>
+        <item name="minHeight">@dimen/dimen_100dp</item>
+        <item name="maxHeight">@dimen/dimen_100dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="MySearchToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/button_text_color</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="actionMenuTextColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

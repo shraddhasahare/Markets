@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Search screen-->
+    <item name="search_autoComplete" type="id" />
+    <item name="search_result" type="id" />
+    <item name="search_no_data" type="id" />
+    <item name="search_recent_searches" type="id" />
+    <item name="search_popular_categories" type="id" />
+    <item name="search_partners" type="id" />
+    <item name="search_trending" type="id" />
+    <item name="search_banner" type="id" />
+    <item name="search_finance_product_result" type="id" />
+    <item name="search_emi_product_result" type="id" />
+
+</resources>

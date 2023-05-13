@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Markets</string>
+    <string name="text_permission">Permission</string>
+    <string name="text_location">Location</string>
+    <string name="text_location_rationale_message">We need this to give you local and customised offers and services</string>
+    <string name="text_sms">SMS</string>
+    <string name="text_sms_rationale_message">We access SMS Of only financial transactions. This will help us improve your app Experience through customised Offers better services.</string>
+    <string name="text_do_it_later">DO IT LATER</string>
+    <string name="text_allow">ALLOW</string>
+
+    <string name="bfdl_client_id">bflclientmob</string>
+    <string name="something_went_wrong">Something went wrong!!</string>
+    <string name="error_rewards_api_failed">Sorry!Unfortunately, we are unable to process your request at the moment. Please try after sometime.</string>
+    <string name="search_product_url">https://apis.qa.bfsgodirect.com/app01/v1/search/query?</string>
+    <string name="auto_suggestion_url">https://apis.qa.bfsgodirect.com/app01/v1/search/autocomplete/feature?</string>
+    <string name="trending_search">https://bfsd.qa.bfsgodirect.com/content/dam/mobile-revamp/android/search/search_func_android.json</string>
+    <string name="trending_search_invest">https://bfsd.qa.bfsgodirect.com/content/dam/mobile-revamp/android/search/search_invest.json</string>
+    <string name="get_city_code">https://bajaj-finance-india-253807.appspot.com/_ah/api/coreApi/v1/client/getCityInfo</string>
+    <string name="empty_search">Oops! Couldn’t find anything</string>
+    <string name="empty_search_second">Try searching some other keyword</string>
+
+    <string name="rupee_symbol">₹</string>
+
+    <!---Search-->
+    <string-array name="searchText">
+        <item>Search Loans</item>
+        <item>Search Credit Cards</item>
+        <item>Search Insurance</item>
+        <item>Search Mutual Funds</item>
+        <item>Search Payments</item>
+        <item>Search eStore Products</item>
+    </string-array>
+
+</resources>

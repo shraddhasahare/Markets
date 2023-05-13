@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clAutoSuggestionItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/widget_background_color">
+
+    <ImageView
+        android:id="@+id/autoSuggestionSearchIcon"
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:layout_marginStart="@dimen/dimen_18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_autosuggestion_search" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAutoSuggestionSearchItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_12dp"
+        android:layout_marginEnd="@dimen/_7dp"
+        android:fontFamily="@font/lato_semibold"
+        android:textColor="@color/search_subtitle_text_color_12"
+        android:textSize="@dimen/dimen_12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/autoSuggestionSearchIcon"
+        app:layout_constraintEnd_toStartOf="@id/ivSearchArrow"
+        app:layout_constraintStart_toEndOf="@+id/autoSuggestionSearchIcon"
+        app:layout_constraintTop_toTopOf="@+id/autoSuggestionSearchIcon" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSearchArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_7dp"
+        android:padding="@dimen/_10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/autoSuggestionSearchIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/autoSuggestionSearchIcon"
+        app:srcCompat="@drawable/ic_icon_arrow_up_left" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/widget_background_color_13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autoSuggestionSearchIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
